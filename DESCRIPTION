@@ -1,0 +1,15 @@
+Package: PersonAlyticsSim
+Type: Package
+Title: Package to automate simulation studies using PersonAlytics Power
+Version: 0.1.2.6
+Author: Stephen Tueller
+Maintainer: Stephen Tueller <stueller@rti.org>
+Description: 
+License: GPL-2 | GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    PersonAlyticsPower
+Suggests: 
+    testthat
+RoxygenNote: 7.0.2
