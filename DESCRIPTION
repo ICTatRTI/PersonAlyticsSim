@@ -1,7 +1,7 @@
 Package: PersonAlyticsSim
 Type: Package
 Title: Package to automate simulation studies using PersonAlytics Power
-Version: 0.1.2.7
+Version: 0.1.2.8
 Author: Stephen Tueller
 Maintainer: Stephen Tueller <stueller@rti.org>
 Description: 
