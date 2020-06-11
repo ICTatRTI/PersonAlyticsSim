@@ -9,7 +9,8 @@ License: GPL-2 | GPL-3
 Encoding: UTF-8
 LazyData: true
 Depends: 
-    PersonAlyticsPower
-Suggests: 
+    PersonAlyticsPower,
+	R (>= 3.4)
+Imports: 
     testthat
 RoxygenNote: 7.0.2
