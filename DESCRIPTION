@@ -1,8 +1,8 @@
 Package: PersonAlyticsSim
 Type: Package
-Title: Package to automate simulation studies using PersonAlytics Power
+Title: Package to automate simulation studies for PersonAlyticsPower
 Version: 0.1.2.8
-Author: Stephen Tueller
+Author: person("Stephen J.", "Tueller", email = "stueller@rti.org", role = c("aut", "cre"))
 Maintainer: Stephen Tueller <stueller@rti.org>
 Description: 
 License: GPL-2 | GPL-3

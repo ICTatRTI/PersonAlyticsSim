@@ -287,7 +287,7 @@ Sim <- R6::R6Class("Sim",
                      #' @param ext
                      #' @param run1
                      #' @param cleanup
-                     #' @param checkOnly
+                     #' @param checkOnly Not implemented, consider deprecating, $progress() works
                      start = function
                      (
                        ext       = 'complete' ,
@@ -377,7 +377,8 @@ Sim <- R6::R6Class("Sim",
                          if(reRun & file.exists(nowDone)) file.remove(nowDone)
                          if( !file.exists(nowDone) )
                          {
-                           # create ICT object - note this will be missing many options, need generalization
+                           # TODO: create ICT object - note this will be missing many options,
+                           # needs generalization to all inputs
                            groups <- self$conditions$groups[[self$condGrid$groups[i]]]
                            phases <- makePhase( self$conditions$phases[[self$condGrid$phases[i]]] )
                            propErrVar <- self$conditions$propErrVar[[self$condGrid$propErrVar[i]]]
@@ -393,7 +394,7 @@ Sim <- R6::R6Class("Sim",
                              error      = error
                            )
 
-                           # update the Input Matrix, this is hard coded to Sim 1, generalize
+                           # TODO: update the Input Matrix, this is hard coded to Sim 1&2, generalize
                            thisICT$inputMat[,c('Mean0', 'Mean1')] <- self$conditions$d[[
                              self$condGrid$d[i]
                              ]]
@@ -416,13 +417,13 @@ Sim <- R6::R6Class("Sim",
                              correlation <- paste('corARMA(p=', ar, ',q=', ma, ')', sep='')
 
                              # save the sample graphic and the designCheck graphic
-                             pdf('designCheck.pdf', onefile = F,
+                             pdf('Large_Sample_DesignCheck.pdf', onefile = F,
                                  width = 11, height=8.5)
                              print( suppressMessages(thisICT$designCheck(title =
                                       "Large Sample (Theoretical)")) )
                              dev.off()
 
-                             pdf('Population.pdf', onefile = F,
+                             pdf('Simulated_Finite_Population.pdf', onefile = F,
                                  width = 11, height=8.5)
                              print( suppressMessages( pa$plot(title=
                                       "Finite Sample (Actual)")  ) )
