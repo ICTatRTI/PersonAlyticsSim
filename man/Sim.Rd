@@ -54,6 +54,7 @@ Stephen Tueller \email{stueller@rti.org}
 }
 \if{html}{\out{<hr>}}
 \if{html}{\out{<a id="method-new"></a>}}
+\if{latex}{\out{\hypertarget{method-new}{}}}
 \subsection{Method \code{new()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Sim$new(
@@ -70,6 +71,7 @@ Stephen Tueller \email{stueller@rti.org}
 }
 \if{html}{\out{<hr>}}
 \if{html}{\out{<a id="method-print"></a>}}
+\if{latex}{\out{\hypertarget{method-print}{}}}
 \subsection{Method \code{print()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Sim$print(...)}\if{html}{\out{</div>}}
@@ -78,6 +80,7 @@ Stephen Tueller \email{stueller@rti.org}
 }
 \if{html}{\out{<hr>}}
 \if{html}{\out{<a id="method-emptyDirs"></a>}}
+\if{latex}{\out{\hypertarget{method-emptyDirs}{}}}
 \subsection{Method \code{emptyDirs()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Sim$emptyDirs()}\if{html}{\out{</div>}}
@@ -86,6 +89,7 @@ Stephen Tueller \email{stueller@rti.org}
 }
 \if{html}{\out{<hr>}}
 \if{html}{\out{<a id="method-start"></a>}}
+\if{latex}{\out{\hypertarget{method-start}{}}}
 \subsection{Method \code{start()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Sim$start(
@@ -98,9 +102,17 @@ Stephen Tueller \email{stueller@rti.org}
 )}\if{html}{\out{</div>}}
 }
 
+\subsection{Arguments}{
+\if{html}{\out{<div class="arguments">}}
+\describe{
+\item{\code{checkOnly}}{Not implemented, consider deprecating, $progress() works}
+}
+\if{html}{\out{</div>}}
+}
 }
 \if{html}{\out{<hr>}}
 \if{html}{\out{<a id="method-cleandirs"></a>}}
+\if{latex}{\out{\hypertarget{method-cleandirs}{}}}
 \subsection{Method \code{cleandirs()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Sim$cleandirs()}\if{html}{\out{</div>}}
@@ -109,6 +121,7 @@ Stephen Tueller \email{stueller@rti.org}
 }
 \if{html}{\out{<hr>}}
 \if{html}{\out{<a id="method-progress"></a>}}
+\if{latex}{\out{\hypertarget{method-progress}{}}}
 \subsection{Method \code{progress()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Sim$progress(ext = "complete", ...)}\if{html}{\out{</div>}}
@@ -117,6 +130,7 @@ Stephen Tueller \email{stueller@rti.org}
 }
 \if{html}{\out{<hr>}}
 \if{html}{\out{<a id="method-summary"></a>}}
+\if{latex}{\out{\hypertarget{method-summary}{}}}
 \subsection{Method \code{summary()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Sim$summary(...)}\if{html}{\out{</div>}}
@@ -125,6 +139,7 @@ Stephen Tueller \email{stueller@rti.org}
 }
 \if{html}{\out{<hr>}}
 \if{html}{\out{<a id="method-summarize"></a>}}
+\if{latex}{\out{\hypertarget{method-summarize}{}}}
 \subsection{Method \code{summarize()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Sim$summarize(fpc = TRUE, raw = FALSE, ...)}\if{html}{\out{</div>}}
@@ -133,6 +148,7 @@ Stephen Tueller \email{stueller@rti.org}
 }
 \if{html}{\out{<hr>}}
 \if{html}{\out{<a id="method-glm"></a>}}
+\if{latex}{\out{\hypertarget{method-glm}{}}}
 \subsection{Method \code{glm()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Sim$glm(
@@ -149,6 +165,7 @@ Stephen Tueller \email{stueller@rti.org}
 }
 \if{html}{\out{<hr>}}
 \if{html}{\out{<a id="method-plot"></a>}}
+\if{latex}{\out{\hypertarget{method-plot}{}}}
 \subsection{Method \code{plot()}}{
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{Sim$plot(
@@ -166,6 +183,7 @@ Stephen Tueller \email{stueller@rti.org}
 }
 \if{html}{\out{<hr>}}
 \if{html}{\out{<a id="method-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

@@ -1,7 +1,8 @@
 Package: PersonAlyticsSim
 Type: Package
 Title: Package to automate simulation studies for PersonAlyticsPower
-Version: 0.1.2.8
+Version: 0.1.2.9
+Date: 2022-04-11
 Author: person("Stephen J.", "Tueller", email = "stueller@rti.org", role = c("aut", "cre"))
 Maintainer: Stephen Tueller <stueller@rti.org>
 Description: 
@@ -13,4 +14,4 @@ Depends:
 	R (>= 3.4)
 Imports: 
     testthat
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.2

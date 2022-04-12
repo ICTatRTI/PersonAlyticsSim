@@ -4,9 +4,6 @@
 \name{PersonAlyticsSim}
 \alias{PersonAlyticsSim}
 \title{PersonAlyticsSim: Tools for large scale simulations using PersonAlyticsPower}
-\description{
-PersonAlyticsSim: Tools for large scale simulations using PersonAlyticsPower
-}
 \details{
 PersonAlyticsSim has two basic functions: \code{\link{simDeploy}} and
 \code{\link{simCollect}}. The first aids with setting up and running a
